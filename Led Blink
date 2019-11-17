@@ -1,0 +1,15 @@
+//percobaan dengan LED Blink
+
+void setup() {
+pinMode(2, OUTPUT);//PIN 2 sebagai output, ke kaki LED
+
+}
+
+void loop() {
+digitalWrite(2, HIGH); //pin 2 diberikan sinyal digital HIGH/ON
+delay(1000); //berikan jeda waktu untuk ON selama 1 detik (1000 ms)
+digitalWrite(2, LOW); // pin 2 diberikan sinyal digital LOW/OFF
+delay(1000); //berikan jeda waktu OFF seama 1 detik (1000 ms)
+
+}
+//program ini seharusnya membuat LED hidup 1 detik dan mati 1 detik dan terus berulang (looping)
